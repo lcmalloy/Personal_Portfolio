@@ -69,6 +69,12 @@ header {
   font-size: 0.9rem;
 }
 
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
 /* =========== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
   header {
@@ -77,11 +83,5 @@ header {
 
   .header__socials, .scroll__down {
     display: none;
-  }
-}
-/* =========== MEDIA QUERIES (MEDIUM DEVICES) =============== */
-@media screen and (max-width: 1024px) {
-  header {
-    height: 100vh;
   }
 }
