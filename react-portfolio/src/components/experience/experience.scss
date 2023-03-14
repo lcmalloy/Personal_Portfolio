@@ -42,21 +42,6 @@
 }
 
 
-
-
-/* =========== MEDIA QUERIES (SMALL DEVICES) =============== */
-@media screen and (max-width: 600px) {
-  .experience__container {
-    gap: 1rem;
-  }
-
-  .experience__container > div {
-    min-width: 21.5rem;
-    width: 100%;
-    padding: 2rem 1rem;
-  }
-
-}
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
   .experience__container{
@@ -71,5 +56,18 @@
 
   .experience__content {
     padding: 1rem;
+  }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    min-width: 21.5rem;
+    width: 100%;
+    padding: 2rem 1rem;
   }
 }
