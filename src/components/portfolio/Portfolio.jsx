@@ -1,6 +1,6 @@
 import React from 'react'
 
-import proj1 from '../../assets/littleLemon.png'
+import quick_bytez from '../../assets/quick bytez.jpg'
 import e7 from '../../assets/e7.jpg'
 import './portfolio.scss'
 
@@ -14,8 +14,8 @@ const projects = [
   },
   {
     id: 2,
-    image: proj1,
-    title: 'Little Lemon',
+    image: quick_bytez,
+    title: 'Quick Bytez',
     github: "https://github.com/",
     demo: ""
   },
