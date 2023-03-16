@@ -1,21 +1,28 @@
 import React from 'react'
 
 import proj1 from '../../assets/littleLemon.png'
+import e7 from '../../assets/e7.jpg'
 import './portfolio.scss'
 
 const projects = [
   {
     id: 1,
+    image: e7,
+    title: 'E7 Content Manager',
+    github: "https://github.com/lcmalloy/E7",
+    demo: "http://18.144.13.194:3000",
+  },
+  {
+    id: 2,
     image: proj1,
     title: 'Little Lemon',
     github: "https://github.com/",
     demo: ""
-  }
+  },
 ]
 
 const Portfolio = () => {
 
-  const project = projects
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
