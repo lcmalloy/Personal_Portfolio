@@ -10,7 +10,7 @@ const projects = [
     image: e7,
     title: 'E7 Content Manager',
     github: "https://github.com/lcmalloy/E7",
-    demo: "http://18.144.13.194:3000",
+    demo: "https://lcmalloy.github.io/E7/",
   },
   {
     id: 2,
