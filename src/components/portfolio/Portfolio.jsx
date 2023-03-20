@@ -2,6 +2,7 @@ import React from 'react'
 
 import quick_bytez from '../../assets/quick bytez.jpg'
 import e7 from '../../assets/e7.jpg'
+import A6i6as from '../../assets/A6i6as.png'
 import './portfolio.scss'
 
 const projects = [
@@ -16,7 +17,14 @@ const projects = [
     id: 2,
     image: quick_bytez,
     title: 'Quick Bytez',
-    github: "https://github.com/",
+    github: "https://github.com/lcmalloy/Quick-Bytez",
+    demo: ""
+  },
+  {
+    id: 3,
+    image: A6i6as,
+    title: 'A6i6as',
+    github: "https://github.com/lcmalloy/A6i6as",
     demo: ""
   },
 ]
@@ -36,7 +44,10 @@ const Portfolio = () => {
           <h3>{project.title}</h3>
           <div className="portfolio__item-CTA">
             <a href={project.github} className='btn' target="_blank" rel="noreferrer">Github</a>
-            <a href={project.demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+            {project.demo !== "" && (
+              <a href={project.demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+             )
+            }
           </div>
         </article>
       ))}

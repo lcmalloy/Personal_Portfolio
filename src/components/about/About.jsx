@@ -29,7 +29,8 @@ const about = () => {
               <small>Backend Development</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a eius cupiditate totam minus aperiam, consequatur necessitatibus similique, sit voluptate ab voluptatem illo deserunt aut exercitationem dolor rerum consequuntur! Officiis.</p>
+          <p>Full Stack software engineer with a Bachelor's from University of California, Davis. Previously a IT professional, I am passionate about building intuitive, user-friendly applications and I enjoy the process of problem solving to creatively find solutions. I am skilled in JavaScript, TypeScript, React, Web Design, and Systems Design.</p>
+          <p>When I am not coding, I enjoy playing video games, watching movies, and doing photography!</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
