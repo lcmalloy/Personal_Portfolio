@@ -18,7 +18,7 @@ const projects = [
     image: quick_bytez,
     title: 'Quick Bytez',
     github: "https://github.com/lcmalloy/Quick-Bytez",
-    demo: ""
+    demo: "https://lcmalloy.github.io/Quick-Bytez/"
   },
   {
     id: 3,
