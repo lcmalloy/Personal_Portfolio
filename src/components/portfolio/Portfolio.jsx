@@ -3,6 +3,7 @@ import React from 'react'
 import quick_bytez from '../../assets/quick bytez.jpg'
 import e7 from '../../assets/e7.jpg'
 import A6i6as from '../../assets/A6i6as.png'
+import GameBox from '../../assets/game-box.jpeg'
 import './portfolio.scss'
 
 const projects = [
@@ -25,6 +26,13 @@ const projects = [
     image: A6i6as,
     title: 'A6i6as',
     github: "https://github.com/lcmalloy/A6i6as",
+    demo: ""
+  },
+  {
+    id: 4,
+    image: GameBox,
+    title: 'Game-Box',
+    github: "https://github.com/lcmalloy/Game-Box",
     demo: ""
   },
 ]
